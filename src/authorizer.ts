@@ -17,11 +17,8 @@ export function safeCompare(input: string, secret: string) {
 
 export function staticUsersAuthorizer(users: Users): Authorizer {
   return (username: string, password: string) => {
-    for (const key of Object.keys(users))
-      if (safeCompare(username, key) && safeCompare(password, users[key])) {
-        return true;
-      }
-
-    return false;
+    return Object.entries(users).some(([key, value]) => {
+      return safeCompare(username, key) && safeCompare(password, value);
+    });
   };
 }

@@ -3,7 +3,6 @@
 [![Test](https://github.com/syarig/koa-basic-auth-connect/actions/workflows/test.yml/badge.svg)](https://github.com/syarig/koa-basic-auth-connect/actions/workflows/test.yml)
 [![npm version](https://badge.fury.io/js/koa-basic-auth-connect.svg)](https://badge.fury.io/js/koa-basic-auth-connect)
 [![npm](https://img.shields.io/npm/dm/koa-basic-auth-connect.svg)]()
-[![David](https://img.shields.io/david/strongloop/express.svg)]()
 ![TypeScript compatible](https://img.shields.io/badge/typescript-compatible-brightgreen.svg)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
@@ -37,9 +36,9 @@ If authentication fails, a 401 HTTP response is returned.
 ## Options
 
 ```ts
-export type FunctionalOption<T> = T | ((ctx: Context) => T);
+export type FunctionalOption<T>=T | ((ctx: Context) => T);
 
-type Options = {
+type Options={
   users: Users;
   realm?: FunctionalOption<string>;
   challenge?: boolean;
