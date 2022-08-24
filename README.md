@@ -1,6 +1,7 @@
 # koa-basic-auth-connect
 
 [![Test](https://github.com/syarig/koa-basic-auth-connect/actions/workflows/test.yml/badge.svg)](https://github.com/syarig/koa-basic-auth-connect/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/syarig/koa-basic-auth-connect/branch/main/graph/badge.svg?token=K6ALEM5DKI)](https://codecov.io/gh/syarig/koa-basic-auth-connect)
 [![npm version](https://badge.fury.io/js/koa-basic-auth-connect.svg)](https://badge.fury.io/js/koa-basic-auth-connect)
 [![npm](https://img.shields.io/npm/dm/koa-basic-auth-connect.svg)]()
 ![TypeScript compatible](https://img.shields.io/badge/typescript-compatible-brightgreen.svg)
