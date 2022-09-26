@@ -1,6 +1,6 @@
 {
   "name": "koa-basic-auth-connect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Basic authentication middleware for koa.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -43,7 +43,7 @@
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "jest": "^28.1.0",
-    "koa-router": "^10.1.1",
+    "koa-router": "^12.0.0",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "supertest": "^6.2.3",
