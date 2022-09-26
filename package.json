@@ -1,6 +1,6 @@
 {
   "name": "koa-basic-auth-connect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Basic authentication middleware for koa.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
